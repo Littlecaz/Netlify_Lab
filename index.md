@@ -1,16 +1,11 @@
 ---
 layout: template.html
-title: Macintosh Project
+title: Tips and trinks
+title2: Tasks
 tags: page
 ---
-# This is my {{ title }}!
-Some Macs I have in my collection:
-        <main class="grid-container">
-        <div class="Header">
-            <h1>Tips and Tricks</h1>
-        </div>
-            <div class="tip1">
-            <h3>New player tips for Genshin</h3>
+# {{ title }}
+New player tips for Genshin
             <ol>
                 <li>Save up 16 wishes and use the new player wish to get at least 2 free, non-story characters. Very helpful early on.</li>
                 <li>Focus on getting to Adventurer Rank (AR) 16 by doing the story and side quests. This unlocks co-op, as well as most of the content in the game.</li>
@@ -25,8 +20,8 @@ Some Macs I have in my collection:
               </ol>
               <p>***This list may be update if I should think of other tips or if anyone else has anything they would recommend I add to it.</p>
 
-              <h3>Tasks</h3>
-              <p>Now you are not required to do these tasks but they are recomended to maintain a good amount of resources and not wasting rechargeable ones (like resin).</p>
+# {{ title2 }}
+Now you are not required to do these tasks but they are recomended to maintain a good amount of resources and not wasting rechargeable ones (like resin).
               <img class="img1" src="\img\dailyTasks.png" alt="A list of daily tasks to do.">
             </div>
-        </main>
+     
