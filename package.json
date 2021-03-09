@@ -1,7 +1,6 @@
 {
   "name": "eleventy-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,18 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Littlecaz/Netlify_Lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Littlecaz/Netlify_Lab/issues"
+  },
+  "homepage": "https://github.com/Littlecaz/Netlify_Lab#readme",
+  "description": ""
 }
