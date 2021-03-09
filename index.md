@@ -1,6 +1,6 @@
 ---
 layout: template.html
-title: Tips and Tricks
+title: Tips
 title2: Tasks
 tags: page
 ---
