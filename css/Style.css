@@ -1,0 +1,220 @@
+:root {
+  --ZCOOL: 'ZCOOL XiaoWei', serif;
+  --Fredericka:'Fredericka the Great', cursive;
+  --greyBlue: #394d4d;
+  --teal: #6b9da4;
+  --dTeal: #487783;
+  --lTeal: #b3d4c6;
+  --white: #ffffff;
+}
+/* main page styles */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+/* upper navigtion bar styles */
+nav {
+  font-size: 2em;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: var(--dTeal);
+  display: inline-block;
+}
+nav a:hover {
+  background-color: var(--dTeal);
+  color: var(--white);
+}
+div.top {
+  background-color: var(--white);
+  display: flex;
+}
+div.wordmark {
+  font-family: var(--Fredericka);
+  flex: 10 0 0;
+  font-size: 4em;
+  justify-content: space-between
+}
+/* first content styles */
+.banner-image img {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  background-color: var(--lTeal);
+}
+div.banner-content {
+  background-color: var(--lTeal);
+  padding: 2em;
+  flex: 2;
+}
+div.banner-content h1{
+  font-family: var(--ZCOOL);
+}
+.button {
+  font-family: var(--ZCOOL);
+  background-color: var(--greyBlue);
+  border: none;
+  color: var(--white);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+div.banner-content a:hover {
+  font-family: var(--ZCOOL);
+  background-color: var(--white);
+  color: var(--greyBlue);
+}
+.button:active {
+  background-color: var(--white);
+  color: #bf3c22;
+}
+/* general font styles for the page */
+h2 h3{
+  font-family: var(--ZCOOL);
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
+/* icon styles */
+article {
+  padding: 1em;
+}
+article:nth-of-type(1) i{
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #876c42;
+  border-radius: 0.5em;
+  text-align: center;
+  color: var(--white);
+}
+article:nth-of-type(2) i{
+  margin: 1em;
+  padding: 0.5em;
+  background-color: var(--teal);
+  border-radius: 0.5em;
+  text-align: center;
+  color: var(--white);
+}
+article:nth-of-type(3) i{
+  margin: 1em;
+  padding: 0.5em;
+  background-color: var(--dTeal);
+  border-radius: 0.5em;
+  text-align: center;
+  color: var(--white);
+}
+article:nth-of-type(4) i{
+  margin: 1em;
+  padding: 0.5em;
+  background-color: var(--greyBlue);
+  border-radius: 0.5em;
+  text-align: center;
+  color: var(--white);
+}
+section.content {
+  background-color: #e1e8e9;
+  padding-bottom: 1em;
+}
+div.viewport {
+  margin: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: var(--dTeal);
+  border-radius: 2em;
+  text-align: center;
+  color: var(--white);
+}
+div.viewport p {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+div.viewport h3 {
+  font-size: 2em;
+}
+footer {
+  background-color: #876c42;
+  color: #c0d4e0;
+  padding: 2em;
+  text-align: center;
+}
+
+/* Add styles here for extra small devices (portrait phones, less than 576px) */
+nav {
+  float: right;
+  flex: 1 0 0 ;
+}
+div.banner {
+  display: flex;
+  flex-direction: column;
+}
+section.widgets {
+  display: flex;
+  flex-direction: column;
+  column-count: 4;
+  text-align: center;
+  margin: 1.5em;
+}
+.banner-image img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+    /* Add styles here for small devices (landscape phones, 576px and up) */
+    section.widgets {
+      flex-direction: column;
+      column-count: 4;
+    }
+    div.banner {
+      flex-direction: column;
+    }
+    .banner-image img {
+      height: 100%;
+      width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Add styles here for medium devices (Tablets...etc) */
+  section.widgets {
+    display: grid;
+  }
+  div.banner {
+    flex-direction: row;
+  }
+
+@media (min-width: 992px) {
+    /* Add styles here for large devices (desktops, 992px and up) */
+    section.widgets {
+      display: flex;
+      flex-direction: row;
+    }
+    div.banner {
+      flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Add styles here for extra large devices (large desktops, 1200px and up) */
+    section.widgets {
+      display: flex;
+      flex-direction: row;
+    }
+    div.banner {
+      flex-direction: row;
+    }
+}
+}
