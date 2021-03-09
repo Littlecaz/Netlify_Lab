@@ -19,8 +19,28 @@ body {
     padding: 0;
 }
 
-main{
+.Header { grid-area: header; }
+.v { grid-area: menu; }
+.tip1 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 /* upper navigtion bar styles */
 nav {
@@ -46,6 +66,7 @@ div.wordmark {
   font-size: 4em;
   justify-content: space-between
 }
+
 /* first content styles */
 .banner-image img {
   display: flex;
@@ -61,21 +82,7 @@ div.banner-content {
 div.banner-content h1{
   font-family: var(--ZCOOL);
 }
-.button {
-  font-family: var(--ZCOOL);
-  background-color: var(--greyBlue);
-  border: none;
-  color: var(--white);
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 2em;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+
 div.banner-content a:hover {
   font-family: var(--ZCOOL);
   background-color: var(--white);
@@ -91,68 +98,6 @@ h2 h3{
 }
 p{
   font-family: 'Lato', sans-serif;
-}
-/* icon styles */
-article {
-  padding: 1em;
-}
-article:nth-of-type(1) i{
-  margin: 1em;
-  padding: 0.5em;
-  background-color: #876c42;
-  border-radius: 0.5em;
-  text-align: center;
-  color: var(--white);
-}
-article:nth-of-type(2) i{
-  margin: 1em;
-  padding: 0.5em;
-  background-color: var(--teal);
-  border-radius: 0.5em;
-  text-align: center;
-  color: var(--white);
-}
-article:nth-of-type(3) i{
-  margin: 1em;
-  padding: 0.5em;
-  background-color: var(--dTeal);
-  border-radius: 0.5em;
-  text-align: center;
-  color: var(--white);
-}
-article:nth-of-type(4) i{
-  margin: 1em;
-  padding: 0.5em;
-  background-color: var(--greyBlue);
-  border-radius: 0.5em;
-  text-align: center;
-  color: var(--white);
-}
-section.content {
-  background-color: #e1e8e9;
-  padding-bottom: 1em;
-}
-div.viewport {
-  margin: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: var(--dTeal);
-  border-radius: 2em;
-  text-align: center;
-  color: var(--white);
-}
-div.viewport p {
-  padding-left: 3em;
-  padding-right: 3em;
-}
-div.viewport h3 {
-  font-size: 2em;
-}
-footer {
-  background-color: #876c42;
-  color: #c0d4e0;
-  padding: 2em;
-  text-align: center;
 }
 
 /* Add styles here for extra small devices (portrait phones, less than 576px) */
