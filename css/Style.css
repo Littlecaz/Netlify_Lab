@@ -18,6 +18,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+main{
+  text-align: center;
+}
 /* upper navigtion bar styles */
 nav {
   font-size: 2em;
