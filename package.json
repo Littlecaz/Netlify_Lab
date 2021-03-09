@@ -14,7 +14,9 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy-img": "^0.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Littlecaz/Netlify_Lab.git"
