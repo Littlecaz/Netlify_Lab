@@ -1,5 +1,6 @@
 <nav>
-    <ul>
+    <a id="toggle" href="#toggle" aria-expanded="false" aria-controls="menu"><i class="fas fa-bars" aria-hidden="true" title="Menu Toggle"></i></a>
+    <ul id="menu">
     {% for page in collections.page -%}
         <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
     {% endfor -%}

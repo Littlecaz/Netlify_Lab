@@ -1,6 +1,6 @@
 ---
 layout: template.html
-title: Tips and trinks
+title: Tips and Tricks
 title2: Tasks
 tags: page
 ---
@@ -23,5 +23,5 @@ New player tips for Genshin
 # {{ title2 }}
 Now you are not required to do these tasks but they are recomended to maintain a good amount of resources and not wasting rechargeable ones (like resin).
               <img class="img1" src="\img\dailyTasks.png" alt="A list of daily tasks to do.">
-            </div>
+            
      
