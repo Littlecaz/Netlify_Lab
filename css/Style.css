@@ -46,6 +46,20 @@ a {
   padding: 20px 0;
   font-size: 30px;
 }
+
+.mainhead1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("\img\Header1.jpg");
+
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
 /* upper navigtion bar styles */
 nav {
   font-size: 2em;
