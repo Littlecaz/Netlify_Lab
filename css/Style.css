@@ -47,16 +47,10 @@ a {
   font-size: 30px;
 }
 
-.mainhead1 {
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.img1 {
+  max-width: 50%;
+  height: auto;
 }
-
 
 /* upper navigtion bar styles */
 nav {
@@ -83,38 +77,6 @@ div.wordmark {
   justify-content: space-between
 }
 
-/* first content styles */
-.banner-image img {
-  display: flex;
-  flex: 1;
-  background-size: cover;
-  background-color: var(--lTeal);
-}
-div.banner-content {
-  background-color: var(--lTeal);
-  padding: 2em;
-  flex: 2;
-}
-div.banner-content h1{
-  font-family: var(--ZCOOL);
-}
-
-div.banner-content a:hover {
-  font-family: var(--ZCOOL);
-  background-color: var(--white);
-  color: var(--greyBlue);
-}
-.button:active {
-  background-color: var(--white);
-  color: #bf3c22;
-}
-/* general font styles for the page */
-h2 h3{
-  font-family: var(--ZCOOL);
-}
-p{
-  font-family: 'Lato', sans-serif;
-}
 
 /* Add styles here for extra small devices (portrait phones, less than 576px) */
 nav {
@@ -132,54 +94,34 @@ section.widgets {
   text-align: center;
   margin: 1.5em;
 }
-.banner-image img {
-  height: 100%;
-  width: 100%;
-}
 
 @media (min-width: 576px) {
     /* Add styles here for small devices (landscape phones, 576px and up) */
-    section.widgets {
-      flex-direction: column;
-      column-count: 4;
-    }
-    div.banner {
-      flex-direction: column;
-    }
-    .banner-image img {
-      height: 100%;
+    .mainimg1 {
       width: 100%;
+      height: 300px;
     }
 }
 
 @media (min-width: 768px) {
     /* Add styles here for medium devices (Tablets...etc) */
-  section.widgets {
-    display: grid;
-  }
-  div.banner {
-    flex-direction: row;
-  }
-
+    .mainimg1 {
+      width: 100%;
+      height: 300px;
+    }
+}
 @media (min-width: 992px) {
     /* Add styles here for large devices (desktops, 992px and up) */
-    section.widgets {
-      display: flex;
-      flex-direction: row;
-    }
-    div.banner {
-      flex-direction: row;
+    .mainimg1 {
+      width: 100%;
+      height: 300px;
     }
 }
 
 @media (min-width: 1200px) {
     /* Add styles here for extra large devices (large desktops, 1200px and up) */
-    section.widgets {
-      display: flex;
-      flex-direction: row;
+    .mainimg1 {
+      width: 100%;
+      height: 300px;
     }
-    div.banner {
-      flex-direction: row;
-    }
-}
 }
