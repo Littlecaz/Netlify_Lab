@@ -17,6 +17,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
+    background-color: #6b9da4;
 }
 
 a {
@@ -25,8 +26,10 @@ a {
 
 .center {
   margin: auto;
+  margin-top: 0;
   padding: 10px;
   width: 50%;
+  background-color: #ffffff;
 }
 
 .img1 {
@@ -67,7 +70,6 @@ div.wordmark {
   font-size: 4em;
   justify-content: space-between
 }
-
 
 /* Add styles here for extra small devices (portrait phones, less than 576px) */
 nav {

@@ -1,14 +1,21 @@
 ---
 layout: template.html
 css: Style.css
-title: Teams
-title2: Characters
+title: Characters
+title2: Teams
 tags: page
 ---
 
 <div class="center">
 
 # {{ title }}
+Characters ahve different levels they can achieve. Everyone starts at Lv.1 and then as you Ascend them the levels will increace like the following; Lv.20, Lv.40, Lv.50, Lv.60, Lv.70, Lv.80, Lv.90.
+<div class="imgbox"><img class="img2" src="..\img\characterLvUp.png" alt="A list of daily tasks to do."></div>
+
+Ascension is when you take materials and then use them to increace the level cap. Each character needs different materials for their ascension chain.
+<div class="imgbox"><img class="img2" src="..\img\characterascension.png" alt="A list of daily tasks to do."></div>
+
+# {{ title2 }}
 Characters have so much impact on gameplay! Let me teach you.
 
 <div class="tip1">
@@ -17,6 +24,5 @@ Characters have different elements that then can combine to become a synergy. Th
 <div class="imgbox"><img class="img2" src="..\img\reactChrt.png" alt="A list of daily tasks to do."></div>
 </div>
 
-# {{ title2 }}
 
 </div>
