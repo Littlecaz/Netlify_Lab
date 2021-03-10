@@ -3,6 +3,7 @@ layout: template.html
 css: Style.css
 title: Characters
 title2: Teams
+title3: Weapons
 tags: page
 ---
 
@@ -23,6 +24,10 @@ Characters have different elements that then can combine to become a synergy. Th
 <br></br>
 <div class="imgbox"><img class="img2" src="..\img\reactChrt.png" alt="A list of daily tasks to do."></div>
 </div>
+
+
+# {{ title3 }}
+<div class="imgbox"><img class="img2" src="..\img\weaponmatval.png" alt="A list of daily tasks to do."></div>
 
 
 </div>
