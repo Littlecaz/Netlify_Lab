@@ -10,8 +10,4 @@ module.exports = function(eleventyConfig) {
     return {
       passthroughFileCopy: true
     }
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> parent of ebe6e2e (Added Content)
