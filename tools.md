@@ -17,16 +17,16 @@ If you want to look more into characters and try to farm the best weapons and ar
 
 #  {{ title2 }}
 Items you find on the ground have different reset times for when they will respawn.
-<div class="imgbox"><img class="img2" src="..\img\resetTimes.png" alt="A list of daily tasks to do."></div>
+<div class="imgbox"><img class="img2" src="..\img\resetTimes.png"></div>
 
 # {{ title3}}
-<div class="imgbox"><img class="img2" src="..\img\critratedmg.png" alt="A list of daily tasks to do."></div>
+<div class="imgbox"><img class="img2" src="..\img\critratedmg.png"></div>
 
 # {{ title4 }}
-<div class="imgbox"><img class="img2" src="..\img\chiliPath.png" alt="A list of daily tasks to do."></div>
+<div class="imgbox"><img class="img2" src="..\img\chiliPath.png"></div>
 
 # {{ title5}}
-<div class="imgbox"><img class="img2" src="..\img\speacialBoss.png" alt="A list of daily tasks to do."></div>
+<div class="imgbox"><img class="img2" src="..\img\speacialBoss.png"></div>
 
 
 </div>
