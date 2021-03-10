@@ -1,6 +1,5 @@
 ---
 layout: template.html
-css: Style.css
 title: Teams
 title: Character
 tags: page
