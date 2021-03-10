@@ -1,7 +1,7 @@
 ---
 layout: template.html
 title: Teams
-title: Character
+title2: Character
 tags: page
 ---
 # {{ title }}
