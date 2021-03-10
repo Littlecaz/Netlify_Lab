@@ -23,14 +23,22 @@ a {
   text-decoration: none;
 }
 
-.tip1 {
-
+.center {
+  margin: auto;
+  padding: 10px;
+  width: 50%;
 }
 
 .img1 {
   max-width: 50%;
   height: auto;
 }
+
+.img2 {
+  max-width: 75%;
+  height: auto;
+}
+
 .imgbox {
   text-align: center;
 }
