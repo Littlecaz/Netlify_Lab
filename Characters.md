@@ -1,7 +1,6 @@
 ---
 layout: template.html
 title: Teams
-title: Characters
 tags: page
 ---
 # {{ title }}
@@ -12,7 +11,3 @@ Characters have different elements that then can combine to become a synergy. Th
 <br></br>
 <img class="img1" src="..\img\reactChrt.png" alt="A list of daily tasks to do.">
 </div>
-
-# {{ title2 }}
-<div class="tip2">
-How characters need to be leveled up and the only way to do this past Lv.20 is 
