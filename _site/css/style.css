@@ -23,28 +23,12 @@ a {
   text-decoration: none;
 }
 
-.Header { 
-  grid-area: header;
-  text-align: center;
- }
-.v { grid-area: menu; }
-.tip1 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  padding: 10px;
+p {
+  color: #6b9da4;
 }
 
-.grid-container > div {
-  padding: 20px 0;
-  font-size: 30px;
+.tip1 {
+  background-color: #6b9da4;
 }
 
 .img1 {
